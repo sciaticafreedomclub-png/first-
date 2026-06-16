@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>45 Degree Machine — Render</title>
+<link rel="stylesheet" href="colors_and_type.css">
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0a0a0a; overflow: hidden; }
+  #root { position: fixed; inset: 0; }
+</style>
+</head>
+<body>
+<div id="video-root" data-screen-label="t=0s">
+  <div id="root"></div>
+</div>
+<script src="node_modules/react/umd/react.development.js"></script>
+<script src="node_modules/react-dom/umd/react-dom.development.js"></script>
+<script src="node_modules/@babel/standalone/babel.min.js"></script>
+<script type="text/babel" src="animations.jsx"></script>
+<script type="text/babel" src="machine.jsx"></script>
+</body>
+</html>
